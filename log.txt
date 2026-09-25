@@ -1,0 +1,23 @@
+commit 65c92bea10cbda655e27799fe8ac029ecd8b16a9
+Author: Musa Haron <2605752@sit.singaporetech.edu.sg>
+Date:   Fri Sep 25 15:52:59 2026 +0800
+
+    Add save_inventory function
+
+commit b1830c52ac20b9e1704b249c2ff2390a62b51b54
+Author: Musa Haron <2605752@sit.singaporetech.edu.sg>
+Date:   Fri Sep 25 15:40:35 2026 +0800
+
+    Add history tracking for new orders
+
+commit 3905e61ee4b0ddb861d85888959172a24acb49d3
+Author: Musa Haron <2605752@sit.singaporetech.edu.sg>
+Date:   Fri Sep 25 15:33:55 2026 +0800
+
+    Add load_inventory function to load current orders
+
+commit 5c44fde942536e01eb4845ed539f472b790a2adc
+Author: Musa Haron <2605752@sit.singaporetech.edu.sg>
+Date:   Fri Sep 25 12:13:27 2026 +0800
+
+    Initial commit

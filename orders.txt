@@ -1,0 +1,7 @@
+1,Wireless Mouse,2
+2,Keyboard,1
+3,USB Cable,3
+4,Laptop Stand,2
+5,Headphones,3
+6,Wired Mouse,4
+7,Tablet,3

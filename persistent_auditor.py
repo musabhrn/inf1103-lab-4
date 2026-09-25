@@ -1,7 +1,7 @@
 def load_inventory():
     orders = []
     try:
-        with open("inventory.txt", "r") as f:
+        with open("orders.txt", "r") as f:
             for line in f:
                 line = line.strip()
                 if line:
@@ -12,7 +12,7 @@ def load_inventory():
     return orders
 
 def save_inventory(orders):
-    with open("inventory.txt", "w") as f:
+    with open("orders.txt", "w") as f:
         for order in orders:
             f.write(f"{order}\n")
 
@@ -31,7 +31,7 @@ display_inventory(history)
 product_name = input("Enter Product Name: ").strip()
 quantity = int(input("Enter Quantity: ").strip())
 
-next_id = 1001 + len(history)
+next_id = 1 + len(history)
 
 new_order = f"{next_id},{product_name},{quantity}"
 history.append(new_order)
