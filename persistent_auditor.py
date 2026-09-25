@@ -24,4 +24,13 @@ def display_inventory(orders):
         print(f"{order[0]}, {order[1]}, {order[2]}")
     print()
 
-display_inventory(history)
+product_name = input("Enter Product Name: ").strip()
+quantity = int(input("Enter Quantity: ").strip())
+
+next_id = 1001 + len(history)
+
+new_order = f"{next_id},{product_name},{quantity}"
+history.append(new_order)
+
+print("\nNew Order Added:")
+print(new_order)
